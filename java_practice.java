@@ -1,8 +1,9 @@
 import java.lang.reflect.Array;
 import java.util.Scanner;
 import java.util.Arrays;
+import java.util.ArrayList;
 
-public class java_practice {
+class java_practice {
 
 
     static void sortarr(int[] arr){
@@ -11,12 +12,27 @@ public class java_practice {
     }
      public static void main(String args[]){
        
-        int arr[]={2,5,1,8,3,7,1};
-        sortarr(arr);
+      //   int arr[]={2,5,1,8,3,7,1};
+      //   sortarr(arr);
 
-        for(int i=0;i<arr.length;i++){
-            System.out.print(arr[i]+" ");
-        }
+      //   for(int i=0;i<arr.length;i++){
+      //       System.out.print(arr[i]+" ");
+      //   }
+
+
+       
+
+
+      // Student sanket=new Student();
+      
+      ArrayList<Integer> num = new ArrayList<>();
+      num.add(1);
+      num.add(2);
+      num.add(3);
+      num.add(4);
+      num.add(5);
+      System.out.println(num);
+
 
         // array are dynamic so we no need to take array in function it is dynamcially updated in original array
 
