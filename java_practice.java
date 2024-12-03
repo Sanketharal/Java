@@ -3,6 +3,7 @@ import java.util.Scanner;
 import java.util.Arrays;
 import java.util.ArrayList;
 
+
 class java_practice {
 
 
@@ -61,7 +62,15 @@ class java_practice {
         // }
         // else{
         //     System.out.println("not a float");
+        
+        
         // }
+
+
+      for(int a=0;a<5;a++){
+         System.out.println("you register succesfully");
+      }
+
      }
     
 }
